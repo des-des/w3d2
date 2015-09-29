@@ -1,0 +1,17 @@
+{
+  "name": "d2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover ./node_modules/.bin/tape ./test/*",
+    "test": "./node_modules/.bin/tape ./test/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.3.21",
+    "shot": "^1.6.1",
+    "tape": "^4.2.0"
+  }
+}
